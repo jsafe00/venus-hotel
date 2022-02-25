@@ -8,7 +8,7 @@ module.exports = {
   /* Your site config here */
   siteMetadata: {
     title: "Venus Hotel",
-    description: "Nice and clean recipes site",
+    description: "Venus Hotel",
     author: "@safventure",
     person: { name: "john", age: 32 },
     simpleData: ["item 1", "item 2"],
@@ -16,6 +16,7 @@ module.exports = {
       { name: "john", age: 32 },
       { name: "susan", age: 21 },
     ],
+    pathPrefix: `/venus-hotel`,
   },
   plugins: [
     `gatsby-plugin-styled-components`,
@@ -24,6 +25,7 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-fontawesome-css`,
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-offline`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
