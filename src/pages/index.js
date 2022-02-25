@@ -11,7 +11,7 @@ export default function Home() {
       <main className="page">
         <header className="hero">
           <StaticImage
-            src="../assets/images/main.jpg"
+            src={withPrefix("../assets/images/main.jpg")}
             alt="venus-hotel"
             className="hero-img"
             placeholder="tracedSVG"
