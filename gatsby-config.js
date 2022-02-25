@@ -8,7 +8,7 @@ module.exports = {
   /* Your site config here */
   siteMetadata: {
     title: "Venus Hotel",
-    description: "Nice and clean recipes site",
+    description: "Venus Hotel",
     author: "@safventure",
     person: { name: "john", age: 32 },
     simpleData: ["item 1", "item 2"],
