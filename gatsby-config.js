@@ -16,7 +16,6 @@ module.exports = {
       { name: "john", age: 32 },
       { name: "susan", age: 21 },
     ],
-    pathPrefix: `/venus-hotel`,
   },
   plugins: [
     `gatsby-plugin-styled-components`,

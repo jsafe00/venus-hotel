@@ -12,7 +12,7 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+    "deploy:github": "npm run build && node ./scripts/deploy-github"
   },
   "dependencies": {
     "@emotion/react": "^11.4.1",
@@ -22,8 +22,8 @@
     "@material-ui/core": "3.9.3",
     "babel-plugin-styled-components": "^1.13.2",
     "gatsby": "^3.13.1",
-    "gatsby-plugin-fontawesome-css": "^1.1.0",
     "gatsby-image": "^2.0.39",
+    "gatsby-plugin-fontawesome-css": "^1.1.0",
     "gatsby-plugin-image": "^1.14.0",
     "gatsby-plugin-manifest": "^2.0.29",
     "gatsby-plugin-offline": "^2.0.25",
